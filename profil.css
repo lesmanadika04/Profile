@@ -1,0 +1,370 @@
+*{
+   margin: 0;
+}
+
+.Opening {
+    background-color: rgb(2, 20, 55);
+    height: 25px;
+    text-align: center;
+    color: aliceblue;
+    vertical-align: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    margin-bottom: 0px;
+}
+.Navigasi {
+    background-color: rgb(25, 67, 121);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    position: fixed;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+    
+.Logo {
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 0;
+}
+
+.Menu {
+   
+}
+.DaftarMenu {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-right: 10%;
+}
+.DaftarMenu a {
+    color: aliceblue;
+    text-decoration: none;
+    align-items: left;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+/* Home */
+.Home {
+    background-color: rgb(229, 231, 235);
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    padding-top: 25px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    gap: 10%;
+}
+.IMG {
+    height: 250px;
+    width: 250px;    
+    border-radius: 50%;
+    vertical-align: center;
+    align-items: center;
+    align-content: center;
+}
+.Teks {
+align-content: center;
+align-items: center;
+color:blueviolet(25, 67, 121);
+font-size: 0,00001vw;
+
+}
+.Teks span {
+    font-size: 0,00001vw;;
+    color: rgb(25, 67, 121);
+}
+.Teks h2 {
+    color: white;
+    font-size: 0,00001vw;
+    font-style: italic;
+    background-color: rgb(2, 48, 88);
+    padding: 5px;
+}
+/* Pendidikan */
+.Pendidikan {
+    background-color: rgb(255, 255, 255);
+    
+    align-items: center;
+    margin-top: 0;
+    text-align: center;
+    font-size: smaller;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+.Pendidikan .JudulPendidikan {
+    padding-top: 80px;
+    font-size: larger;
+}
+.Pendidikan .NamaSekolah {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: smaller;
+    gap: 10%;
+
+}
+.Pendidikan h1 {
+    font-size: smaller;
+}
+.SD img {
+    width: 180px;
+    height: 120px;
+    border-radius: 50%;
+}
+.LinkSD {
+    color: black;
+    text-decoration: none;
+}
+.SMP img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.LinkSMP {
+    color: black;
+    text-decoration: none;}
+.SMA img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.LinkSMA {
+    color: black;
+    text-decoration: none;}
+.Univ img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.LinkPT {
+    color: black;
+    text-decoration: none;}
+
+/*Skills*/
+.Skills {
+    background-color:  rgb(229, 231, 235);
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 60px;
+}
+.JudulSkills {
+    padding-top: 80px;
+    font-size: larger;
+    padding-bottom: 0px;
+}
+.MacamSkills {
+    background-color: rgb(229, 231, 235);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: smaller;
+    gap: 10%;
+  
+}
+.LogoMacamSkills img {
+    border-radius: 0;
+    width: 200px;
+    height: 180px;  
+}
+.IsiMSK li {
+    text-align:left;
+    list-style-type: square;
+    font-size: 20px;
+    gap: 20%;
+    column-gap: 10%;
+    text-decoration: solid;
+   
+}
+/* Prestasi */
+.Prestasi {
+    background-color:  rgb(250, 250, 250);
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 40px;
+}
+.JudulPrestasi {
+    padding-top:80px;
+    font-size: larger;
+    
+}
+.MacamPrestasi {
+    background-color: rgb(250, 250, 250);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: smaller;
+    gap: 10%;
+    
+}
+.LogoPrestasi img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;  
+}
+.IsiPST {
+    gap: 20%;
+    row-gap: 20%;
+}
+.IsiPST li {
+    text-align:left;
+    list-style-type: square;
+    font-size: 20px;
+    text-decoration: solid;
+     
+}
+/*Publikasi*/
+.Publikasi {
+    background-color:  rgb(229, 231, 235);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.JudulPublikasi {
+    padding-top: 80px;
+    font-size: larger;
+    padding-bottom: 0px;
+}
+.MacamPublikasi {
+    background-color: rgb(229, 231, 235);
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: smaller;
+    gap: 5%;
+    padding-bottom: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.LogoMacamPublikasi img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;  
+    padding-left: 10%;
+}
+.IsiPBK {
+    text-align:justify;
+    list-style-type: square;
+    font-size: 12px;
+    padding-top: 5px;
+    text-decoration: solid;
+    padding-right: 10%;
+}
+/*Contact*/
+.Contact {
+    background-color:  rgb(250, 250, 250);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: smaller;
+}
+.JudulContact {
+    padding-top: 50px;
+    font-size: larger;
+    align-items: center;
+    align-content: center;
+}
+.MacamContact {
+    align-items: center;
+    color: black;
+    justify-content:center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 5%;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.MacamContact a{
+    align-items: center;
+    color: black;
+    justify-content:space-between ;
+    padding: 8px;
+    font-size: 20px;
+}
+.GambarContact {
+    width: 40%;
+    height: 40%;
+}
+.Message {
+    background-color: rgb(229, 231, 235);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    flex-wrap: wrap;
+}
+.CopyRight {
+background-color: rgb(229, 231, 235);;
+height: 60px;
+color:black;
+align-items: center;
+align-content: center;
+text-align: center;
+font-size: small;
+}
+.Footer {
+    background-color: rgb(2, 20, 55);
+    height: 25px;
+    text-align: center;
+    color: aliceblue;
+    vertical-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: small;
+}
+
+
+   
+}
+}
